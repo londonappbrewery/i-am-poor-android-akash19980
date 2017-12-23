@@ -16,15 +16,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginRight="54dp"
         android:text="@string/name1"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:textStyle="bold|italic"/>
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"/>
 
     <ImageView
         android:id="@+id/imageView"
